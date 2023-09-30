@@ -60,7 +60,10 @@ const Home = ({ setActive, user, active }) => {
         let list = [];
         let tags = [];
         snapshot.docs.forEach((doc) => {
-          tags.push(...doc.get("tags"));
+          const docTags = doc.get("tags");
+          if (Array.isArray(docTags)) {
+            tags.push(...docTags);
+          }
           list.push({ id: doc.id, ...doc.data() });
         });
         const uniqueTags = [...new Set(tags)];
