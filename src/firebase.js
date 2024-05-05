@@ -4,13 +4,12 @@ import { getStorage } from "firebase/storage";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC2aUJhjRhrE-l3mi8QRiE_b38F9hVT_xc",
-  authDomain: "blog-application-da1c6.firebaseapp.com",
-  databaseURL: "https://blog-application-da1c6-default-rtdb.firebaseio.com",
-  projectId: "blog-application-da1c6",
-  storageBucket: "blog-application-da1c6.appspot.com",
-  messagingSenderId: "697774882345",
-  appId: "1:697774882345:web:b088d0c17f0d219ac52638",
+  apiKey: "AIzaSyClZqUxzBz2OPQU6IkJ7Bh7O8SoC4pP2W8",
+  authDomain: "blog-updated-d2452.firebaseapp.com",
+  projectId: "blog-updated-d2452",
+  storageBucket: "blog-updated-d2452.appspot.com",
+  messagingSenderId: "295082986078",
+  appId: "1:295082986078:web:004ef801dfed5189bac2cf"
 };
 
 const app = initializeApp(firebaseConfig);
